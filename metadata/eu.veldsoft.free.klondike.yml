@@ -1,0 +1,39 @@
+AntiFeatures:
+  - Ads
+Categories:
+  - Card Game
+License: GPL-3.0-or-later
+AuthorName: Velbazhd Software LLC
+WebSite: https://sourceforge.net/projects/fourrow/
+SourceCode: https://github.com/VelbazhdSoftwareLLC/FreeKlondike
+IssueTracker: https://github.com/VelbazhdSoftwareLLC/FreeKlondike/issues
+Donate: 
+  https://www.paypal.com/cgi-bin/webscr?item_name=Donation+to+Four+Row+Solitaire&cmd=_donations&business=masta08%40gmail.com
+
+AutoName: Free Klondike
+
+RepoType: git
+Repo: https://github.com/VelbazhdSoftwareLLC/FreeKlondike.git
+
+Builds:
+  - versionName: 2.0.0
+    versionCode: 2
+    commit: v2.0.0
+    subdir: FreeKlondike
+    gradle:
+      - yes
+
+  - versionName: 2.0.1
+    versionCode: 3
+    commit: 789dba50f290bc6a4775ad6769f0210ec4b76b5e
+    subdir: FreeKlondike
+    gradle:
+      - yes
+    prebuild:
+      - sed -i -e '/java.home/d' ../gradle.properties
+      - sed -i -e '/abortOnError/a checkReleaseBuilds false' build.gradle
+
+AutoUpdateMode: None
+UpdateCheckMode: RepoManifest
+CurrentVersion: 2.0.1
+CurrentVersionCode: 3
