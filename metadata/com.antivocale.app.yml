@@ -804,7 +804,7 @@ Builds:
 
   - versionName: 1.12.0
     versionCode: 421
-    commit: f2d298423b7e52a4a0c6e6ef6b2e6e6ecd68c899
+    commit: 80af9ce7883b164ddd8f4fa11f3a62d03bb59542
     subdir: app
     sudo:
       - apt-get update
@@ -842,7 +842,7 @@ Builds:
 
   - versionName: 1.12.0
     versionCode: 422
-    commit: f2d298423b7e52a4a0c6e6ef6b2e6e6ecd68c899
+    commit: 80af9ce7883b164ddd8f4fa11f3a62d03bb59542
     subdir: app
     sudo:
       - apt-get update
@@ -880,7 +880,7 @@ Builds:
 
   - versionName: 1.12.0
     versionCode: 424
-    commit: f2d298423b7e52a4a0c6e6ef6b2e6e6ecd68c899
+    commit: 80af9ce7883b164ddd8f4fa11f3a62d03bb59542
     subdir: app
     sudo:
       - apt-get update
