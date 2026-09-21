@@ -1032,7 +1032,7 @@ Builds:
 
   - versionName: 1.13.0
     versionCode: 441
-    commit: 0e4030865b32bf7948e66796e26c8c08e80e75c9
+    commit: fba40b5c7e7c3f2c0094d3ec37c7765dddefb316
     subdir: app
     sudo:
       - apt-get update
@@ -1069,7 +1069,7 @@ Builds:
 
   - versionName: 1.13.0
     versionCode: 442
-    commit: 0e4030865b32bf7948e66796e26c8c08e80e75c9
+    commit: fba40b5c7e7c3f2c0094d3ec37c7765dddefb316
     subdir: app
     sudo:
       - apt-get update
@@ -1106,7 +1106,7 @@ Builds:
 
   - versionName: 1.13.0
     versionCode: 444
-    commit: 0e4030865b32bf7948e66796e26c8c08e80e75c9
+    commit: fba40b5c7e7c3f2c0094d3ec37c7765dddefb316
     subdir: app
     sudo:
       - apt-get update
