@@ -1260,7 +1260,7 @@ Builds:
 
   - versionName: 1.14.0
     versionCode: 471
-    commit: 6182dae9670e4a90462f5eeaff5bd4295b02d0c2
+    commit: d78066fa94717e7520fe610b2ff065b1940fcbdf
     subdir: app
     sudo:
       - apt-get update
@@ -1297,7 +1297,7 @@ Builds:
 
   - versionName: 1.14.0
     versionCode: 472
-    commit: 6182dae9670e4a90462f5eeaff5bd4295b02d0c2
+    commit: d78066fa94717e7520fe610b2ff065b1940fcbdf
     subdir: app
     sudo:
       - apt-get update
@@ -1334,7 +1334,7 @@ Builds:
 
   - versionName: 1.14.0
     versionCode: 474
-    commit: 6182dae9670e4a90462f5eeaff5bd4295b02d0c2
+    commit: d78066fa94717e7520fe610b2ff065b1940fcbdf
     subdir: app
     sudo:
       - apt-get update
