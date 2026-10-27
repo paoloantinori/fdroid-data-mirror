@@ -1517,7 +1517,7 @@ Builds:
       - cp 
         $$sherpa_onnx$$/android/SherpaOnnxAar/sherpa_onnx/build/outputs/aar/sherpa_onnx-release.aar
         libs/sherpa-onnx.aar
-    ndk: r28c
+    ndk: r27
     postbuild:
       - mv $$OUT$$ unaligned.apk
       - $$reproducible-apk-tools$$/zipalign.py --page-size 16 --pad-like-apksigner
@@ -1554,7 +1554,7 @@ Builds:
       - cp 
         $$sherpa_onnx$$/android/SherpaOnnxAar/sherpa_onnx/build/outputs/aar/sherpa_onnx-release.aar
         libs/sherpa-onnx.aar
-    ndk: r28c
+    ndk: r27
     postbuild:
       - mv $$OUT$$ unaligned.apk
       - $$reproducible-apk-tools$$/zipalign.py --page-size 16 --pad-like-apksigner
@@ -1591,7 +1591,7 @@ Builds:
       - cp 
         $$sherpa_onnx$$/android/SherpaOnnxAar/sherpa_onnx/build/outputs/aar/sherpa_onnx-release.aar
         libs/sherpa-onnx.aar
-    ndk: r28c
+    ndk: r27
     postbuild:
       - mv $$OUT$$ unaligned.apk
       - $$reproducible-apk-tools$$/zipalign.py --page-size 16 --pad-like-apksigner
