@@ -1602,7 +1602,7 @@ Builds:
 
   - versionName: 1.16.0
     versionCode: 501
-    commit: 58234df9c1c76051e35f4204bf889d239b6bced4
+    commit: 4d6e375ed2794c1cc6a3ea5c6d2c1c6c38fb26a8
     subdir: app
     sudo:
       - apt-get update
@@ -1640,7 +1640,7 @@ Builds:
 
   - versionName: 1.16.0
     versionCode: 502
-    commit: 58234df9c1c76051e35f4204bf889d239b6bced4
+    commit: 4d6e375ed2794c1cc6a3ea5c6d2c1c6c38fb26a8
     subdir: app
     sudo:
       - apt-get update
@@ -1678,7 +1678,7 @@ Builds:
 
   - versionName: 1.16.0
     versionCode: 504
-    commit: 58234df9c1c76051e35f4204bf889d239b6bced4
+    commit: 4d6e375ed2794c1cc6a3ea5c6d2c1c6c38fb26a8
     subdir: app
     sudo:
       - apt-get update
