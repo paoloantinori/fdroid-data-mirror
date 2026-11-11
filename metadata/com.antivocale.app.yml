@@ -1728,7 +1728,7 @@ Builds:
 
   - versionName: 1.16.1
     versionCode: 511
-    commit: daca1bd67bb5841f03e10ad36570d12f4e8aa66b
+    commit: 2152e651c361254eb55ace949c8c704139dbf466
     subdir: app
     sudo:
       - apt-get update
@@ -1767,7 +1767,7 @@ Builds:
 
   - versionName: 1.16.1
     versionCode: 512
-    commit: daca1bd67bb5841f03e10ad36570d12f4e8aa66b
+    commit: 2152e651c361254eb55ace949c8c704139dbf466
     subdir: app
     sudo:
       - apt-get update
@@ -1806,7 +1806,7 @@ Builds:
 
   - versionName: 1.16.1
     versionCode: 514
-    commit: daca1bd67bb5841f03e10ad36570d12f4e8aa66b
+    commit: 2152e651c361254eb55ace949c8c704139dbf466
     subdir: app
     sudo:
       - apt-get update
